@@ -89,7 +89,10 @@ A 档真跑，B 档跑不动时看懂结构。
 - **已完成**：
   - 框架（本文件 + SYLLABUS + CONTRIBUTING + NOTATION + 模板 + 自检脚本 + 各篇 README）
   - 第 1 篇 ComfyUI 3D 建模：5 章教学 + 5 份实操（[ch01 概览](01_comfyui_3d/docs/ch01_3d_overview.md) / [ch02 图生 3D](01_comfyui_3d/docs/ch02_img2img3d.md) / [ch03 文生 3D](01_comfyui_3d/docs/ch03_text2_3d.md) / [ch04 格式导出](01_comfyui_3d/docs/ch04_formats.md) / [ch05 衔接 Blender](01_comfyui_3d/docs/ch05_handoff.md)）
-- **进行中**：第 2 篇 Blender 基础（正文 = 3D 后处理用到的章节，其余占位），状态见 [SYLLABUS.md](SYLLABUS.md)
+  - 第 2 篇 Blender 基础（3D 后处理用到的正文）：7 章教学 + 7 份实操（[ch06 界面](02_blender_basics/docs/ch06_ui_navigation.md) / [ch07 导入](02_blender_basics/docs/ch07_import.md) / [ch08 网格清理](02_blender_basics/docs/ch08_mesh_cleanup.md) / [ch09 UV](02_blender_basics/docs/ch09_uv.md) / [ch10 材质](02_blender_basics/docs/ch10_materials.md) / [ch11 导出](02_blender_basics/docs/ch11_export.md) / [ch12 渲染](02_blender_basics/docs/ch12_render.md)）
+  - 附录 A~C：[术语对照](90_appendix/docs/appA_glossary.md) / [快捷键](90_appendix/docs/appB_shortcuts.md) / [故障排查](90_appendix/docs/appC_troubleshooting.md)
+- **主线闭环**：从 ComfyUI 生成 3D 到 Blender 后处理、导出、渲染的完整流程已全部覆盖
+- **占位（按需再填）**：Blender 其它领域 ch13~ch18（建模/灯光/骨骼/动画/材质进阶/雕刻），不建空壳文件，状态见 [SYLLABUS.md](SYLLABUS.md)
 
 ## 填充一章的最短路径
 

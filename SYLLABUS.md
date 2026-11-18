@@ -73,57 +73,57 @@ created: 2026-11-18
 
 > 说明：本篇是「够用导向」——服务第 1 篇的 3D 后处理。想系统学 Blender 的其它领域，按占位章节逐个补。
 
-### 第 6 章 Blender 界面与视图操作（UI & Navigation） · [待写]
+### 第 6 章 Blender 界面与视图操作（UI & Navigation） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch06_ui_navigation.md` ｜ 实操：`02_blender_basics/tasks/ch06_task.md`
+> [教学](02_blender_basics/docs/ch06_ui_navigation.md) · [实操](02_blender_basics/tasks/ch06_task.md)
 
 **本章子概念索引：** 主界面分区 · 3D 视图导航（旋转/平移/缩放）· 物体模式 vs 编辑模式 · 选择操作 · 单位与坐标系
 
 **节骨架：** 6.1 界面长什么样 ｜ 6.2 视图导航三件套 ｜ 6.3 物体模式与编辑模式 ｜ 6.4 选择、坐标与单位
 
-### 第 7 章 导入与检查模型（Import & Inspect） · [待写]
+### 第 7 章 导入与检查模型（Import & Inspect） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch07_import.md` ｜ 实操：`02_blender_basics/tasks/ch07_task.md`
+> [教学](02_blender_basics/docs/ch07_import.md) · [实操](02_blender_basics/tasks/ch07_task.md)
 
 **本章子概念索引：** 导入 glb/gltf/obj/ply · 场景清理（默认立方体）· 检查网格（线框/统计）· 朝向与缩放 · 法线显示
 
 **节骨架：** 7.1 导入 AI 生成的模型 ｜ 7.2 检查模型是否正常 ｜ 7.3 朝向/缩放/位置修正 ｜ 7.4 常见问题（模型太小/看不见）
 
-### 第 8 章 网格清理与修复（Mesh Cleanup） · [待写]
+### 第 8 章 网格清理与修复（Mesh Cleanup） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch08_mesh_cleanup.md` ｜ 实操：`02_blender_basics/tasks/ch08_task.md`
+> [教学](02_blender_basics/docs/ch08_mesh_cleanup.md) · [实操](02_blender_basics/tasks/ch08_task.md)
 
 **本章子概念索引：** 法线（重计算/朝外）· 非流形边 · 合并顶点（Merge by Distance）· 减面（Decimate）· 平滑与细分
 
 **节骨架：** 8.1 AI 模型为什么要清理 ｜ 8.2 法线与朝向修复 ｜ 8.3 去杂面/合并顶点/减面 ｜ 8.4 平滑与细节取舍
 
-### 第 9 章 UV 展开入门（UV Unwrapping Basics） · [待写]
+### 第 9 章 UV 展开入门（UV Unwrapping Basics） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch09_uv.md` ｜ 实操：`02_blender_basics/tasks/ch09_task.md`
+> [教学](02_blender_basics/docs/ch09_uv.md) · [实操](02_blender_basics/tasks/ch09_task.md)
 
 **本章子概念索引：** UV 是什么（够用）· UV 编辑器 · 自动展开（Smart UV Project）· 标记缝合边 · 何时需要重展 UV
 
 **节骨架：** 9.1 UV 解决什么问题 ｜ 9.2 UV 编辑器与布局 ｜ 9.3 自动展开够用流程 ｜ 9.4 AI 模型何时需要重展
 
-### 第 10 章 材质与贴图入门（Materials & Textures） · [待写]
+### 第 10 章 材质与贴图入门（Materials & Textures） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch10_materials.md` ｜ 实操：`02_blender_basics/tasks/ch10_task.md`
+> [教学](02_blender_basics/docs/ch10_materials.md) · [实操](02_blender_basics/tasks/ch10_task.md)
 
 **本章子概念索引：** PBR 基础（Base Color / Roughness / Normal）· 材质槽 · 贴图加载与连接（Shader Editor 够用）· 从 AI 模型继承材质
 
 **节骨架：** 10.1 PBR 三张图（够用直觉）｜ 10.2 材质槽与Shader Editor ｜ 10.3 加载/连接贴图 ｜ 10.4 AI 模型自带材质怎么处理
 
-### 第 11 章 导出模型（Export） · [待写]
+### 第 11 章 导出模型（Export） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch11_export.md` ｜ 实操：`02_blender_basics/tasks/ch11_task.md`
+> [教学](02_blender_basics/docs/ch11_export.md) · [实操](02_blender_basics/tasks/ch11_task.md)
 
 **本章子概念索引：** 导出 glb/gltf · fbx（游戏引擎）· obj（通用）· stl（3D 打印）· 应用变换与坐标 · 贴图嵌入
 
 **节骨架：** 11.1 导出前检查清单 ｜ 11.2 glb/gltf 导出设置 ｜ 11.3 按用途选格式（引擎/打印/展示）｜ 11.4 贴图嵌入与常见坑
 
-### 第 12 章 渲染出图（Rendering Basics） · [待写]
+### 第 12 章 渲染出图（Rendering Basics） · [已完成]
 
-> 文件：`02_blender_basics/docs/ch12_render.md` ｜ 实操：`02_blender_basics/tasks/ch12_task.md`
+> [教学](02_blender_basics/docs/ch12_render.md) · [实操](02_blender_basics/tasks/ch12_task.md)
 
 **本章子概念索引：** 相机 · 灯光（够用）· Eevee vs Cycles · 世界环境/背景 · 输出设置 · 快速出产品图
 
@@ -163,19 +163,19 @@ created: 2026-11-18
 
 ## 附录 → `90_appendix/`
 
-### 附录 A 术语对照表（Glossary：ComfyUI ↔ Blender） · [待写]
+### 附录 A 术语对照表（Glossary：ComfyUI ↔ Blender） · [已完成]
 
-> 文件：`90_appendix/docs/appA_glossary.md`
+> [教学](90_appendix/docs/appA_glossary.md)
 > 两域同名/异名术语对照（Mesh / Latent / UV / 法线 / 采样…），避免被同一词的不同含义绕晕。
 
-### 附录 B 快捷键速查（Shortcuts） · [待写]
+### 附录 B 快捷键速查（Shortcuts） · [已完成]
 
-> 文件：`90_appendix/docs/appB_shortcuts.md`
+> [教学](90_appendix/docs/appB_shortcuts.md)
 > Blender 高频快捷键（视图导航/模式切换/选择/编辑），按用途分组。
 
-### 附录 C 故障排查（Troubleshooting） · [待写]
+### 附录 C 故障排查（Troubleshooting） · [已完成]
 
-> 文件：`90_appendix/docs/appC_troubleshooting.md`
+> [教学](90_appendix/docs/appC_troubleshooting.md)
 > 导入模型看不见、法线反了、贴图丢失、导出到引擎变形等，按「现象 → 原因 → 处理」列。
 
 ---

@@ -71,7 +71,7 @@ created: 2026-11-18
 
 - 显存爆了 → 换更轻量的方案（TripoSR）、降面数，或参考 [ComfyUI 性能篇](https://github.com/tliu154/ComfyUI_study_record/blob/main/06_ecosystem/docs/ch26_performance.md)
 - 找不到 3D 节点 → 确认节点包已装、ComfyUI 已重启（[主仓库 ch24](https://github.com/tliu154/ComfyUI_study_record/blob/main/06_ecosystem/docs/ch24_manager.md)）
-- 生成的模型破面/法线乱 → 正常，去 Blender 修（[ch05](../docs/ch05_handoff.md) + [ch08](../02_blender_basics/docs/ch08_mesh_cleanup.md)）
+- 生成的模型破面/法线乱 → 正常，去 Blender 修（[ch05](../docs/ch05_handoff.md) + [ch08](../../02_blender_basics/docs/ch08_mesh_cleanup.md)）
 - 其它 → [附录 C 故障排查](../../90_appendix/docs/appC_troubleshooting.md)
 
 ## 下一步
