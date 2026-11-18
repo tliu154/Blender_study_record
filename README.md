@@ -86,9 +86,10 @@ A 档真跑，B 档跑不动时看懂结构。
 
 ## 进度
 
-- **已完成**：框架（本文件 + SYLLABUS + CONTRIBUTING + NOTATION + 模板 + 自检脚本 + 各篇 README）
-- **进行中**：按「一块一块填」的节奏填充正文，状态见 [SYLLABUS.md](SYLLABUS.md)
-- 完成后每篇 README 与根 README 的进度会同步更新
+- **已完成**：
+  - 框架（本文件 + SYLLABUS + CONTRIBUTING + NOTATION + 模板 + 自检脚本 + 各篇 README）
+  - 第 1 篇 ComfyUI 3D 建模：5 章教学 + 5 份实操（[ch01 概览](01_comfyui_3d/docs/ch01_3d_overview.md) / [ch02 图生 3D](01_comfyui_3d/docs/ch02_img2img3d.md) / [ch03 文生 3D](01_comfyui_3d/docs/ch03_text2_3d.md) / [ch04 格式导出](01_comfyui_3d/docs/ch04_formats.md) / [ch05 衔接 Blender](01_comfyui_3d/docs/ch05_handoff.md)）
+- **进行中**：第 2 篇 Blender 基础（正文 = 3D 后处理用到的章节，其余占位），状态见 [SYLLABUS.md](SYLLABUS.md)
 
 ## 填充一章的最短路径
 

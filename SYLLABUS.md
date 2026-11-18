@@ -25,41 +25,41 @@ created: 2026-11-18
 前置：[ComfyUI 2D 基础](https://github.com/tliu154/ComfyUI_study_record)（ch01~ch08 概念）。
 目标：在 ComfyUI 里用 AI 生成 3D 模型，理解 3D 表示，导出标准格式并衔接 Blender 后处理。
 
-### 第 1 章 3D 生成概览：从 2D 到 3D（3D Generation Overview） · [待写]
+### 第 1 章 3D 生成概览：从 2D 到 3D（3D Generation Overview） · [已完成]
 
-> 文件：`01_comfyui_3d/docs/ch01_3d_overview.md` ｜ 实操：`01_comfyui_3d/tasks/ch01_task.md`
+> [教学](01_comfyui_3d/docs/ch01_3d_overview.md) · [实操](01_comfyui_3d/tasks/ch01_task.md)
 
 **本章子概念索引：** 3D 的几种表示（Mesh / 点云 / 体素 / NeRF / 3DGS）· AI 3D 生成的两条路线（图生 / 文生）· ComfyUI 里的 3D 生态 · 典型流程（AI 生成 → Blender 后处理 → 应用）
 
 **节骨架：** 1.1 3D 和 2D 生成有何不同 ｜ 1.2 常见 3D 表示（够用直觉）｜ 1.3 ComfyUI 能做哪些 3D ｜ 1.4 一条完整流程长什么样
 
-### 第 2 章 图生 3D（Image-to-3D） · [待写]
+### 第 2 章 图生 3D（Image-to-3D） · [已完成]
 
-> 文件：`01_comfyui_3d/docs/ch02_img2img3d.md` ｜ 实操：`01_comfyui_3d/tasks/ch02_task.md`
+> [教学](01_comfyui_3d/docs/ch02_img2img3d.md) · [实操](01_comfyui_3d/tasks/ch02_task.md)
 
 **本章子概念索引：** 图生 3D 原理（够用）· 主流模型（TripoSR / Hunyuan3D / InstantMesh 等）· 输入图要求 · 输出格式与质量
 
 **节骨架：** 2.1 一张图怎么变 3D ｜ 2.2 主流方案对比 ｜ 2.3 最小图生 3D 工作流 ｜ 2.4 输入图质量与结果的关系
 
-### 第 3 章 文生 3D（Text-to-3D） · [待写]
+### 第 3 章 文生 3D（Text-to-3D） · [已完成] [选读]
 
-> 文件：`01_comfyui_3d/docs/ch03_text2_3d.md` ｜ 实操：`01_comfyui_3d/tasks/ch03_task.md`
+> [教学](01_comfyui_3d/docs/ch03_text2_3d.md) · [实操](01_comfyui_3d/tasks/ch03_task.md)
 
 **本章子概念索引：** 文生 3D 路线（Score Distillation / 大模型直出）· 与图生 3D 的取舍 · 多视图生成 · 适用场景
 
 **节骨架：** 3.1 只用文字能生成 3D 吗 ｜ 3.2 文生 vs 图生的取舍 ｜ 3.3 最小文生 3D 流程 ｜ 3.4 什么时候用哪条路
 
-### 第 4 章 3D 模型格式与导出（3D Formats & Export） · [待写]
+### 第 4 章 3D 模型格式与导出（3D Formats & Export） · [已完成]
 
-> 文件：`01_comfyui_3d/docs/ch04_formats.md` ｜ 实操：`01_comfyui_3d/tasks/ch04_task.md`
+> [教学](01_comfyui_3d/docs/ch04_formats.md) · [实操](01_comfyui_3d/tasks/ch04_task.md)
 
 **本章子概念索引：** 常见格式（glb / gltf / obj / fbx / ply / stl）· 网格 vs 点云 · 贴图与材质的携带 · 导出节点设置 · 文件体积与优化
 
 **节骨架：** 4.1 一张表看清常见 3D 格式 ｜ 4.2 该导出哪种格式 ｜ 4.3 贴图/材质怎么跟着走 ｜ 4.4 导出避坑（法线/朝向/单位）
 
-### 第 5 章 衔接 Blender：后处理流程（Handoff to Blender） · [待写]
+### 第 5 章 衔接 Blender：后处理流程（Handoff to Blender） · [已完成]
 
-> 文件：`01_comfyui_3d/docs/ch05_handoff.md` ｜ 实操：`01_comfyui_3d/tasks/ch05_task.md`
+> [教学](01_comfyui_3d/docs/ch05_handoff.md) · [实操](01_comfyui_3d/tasks/ch05_task.md)
 
 **本章子概念索引：** 为什么 AI 生成的模型要后处理 · 导入 Blender（链到 [ch07](02_blender_basics/docs/ch07_import.md)）· 清理/修复（链到 [ch08](02_blender_basics/docs/ch08_mesh_cleanup.md)）· 重新导出（链到 [ch11](02_blender_basics/docs/ch11_export.md)）
 
