@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian 本地状态
+.workspace/
+.trash/
+*.workspace.json
+
+# Blender 大文件与输出（不入库）
+*.blend
+*.blend1
+*.blend2
+*.obj
+*.fbx
+*.glb
+*.gltf
+*.ply
+*.stl
+*.usd
+*.usdz
+*.abc
+render/
+output/
+exports/
+textures/
+# 贴图源文件较大，按需外链
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.hdr
+*.tiff
+*.tga
